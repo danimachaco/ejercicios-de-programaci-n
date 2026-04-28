@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo Producto</title>
+</head>
+<body>
+
+<h1>Nuevo Producto</h1>
+
+<form id="form-producto">
+    <label>
+        Num_Ref:
+        <input type="number" id="num_ref" required>
+    </label>
+    <br><br>
+
+    <label>
+        Nombre:
+        <input type="text" id="nombre" required>
+    </label>
+    <br><br>
+
+    <label>
+        Categoria:
+        <input type="text" id="categoria" required>
+    </label>
+    <br><br>
+
+    <label>
+        Precio:
+        <input type="number" step="any" min="0" id="precio" required>
+    </label>
+    <br><br>
+
+    <label>
+        Stock:
+        <input type="number" id="stock" required>
+    </label>
+    <br><br>
+
+    <button type="submit">Guardar</button>
+</form>
+
+<br>
+<a href="productos.html">Volver al listado</a>
+
+<script src="productosNew.js"></script>
+</body>
+</html>
